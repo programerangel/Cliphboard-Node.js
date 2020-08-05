@@ -1,0 +1,14 @@
+{
+  "name": "clipboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "cb-db": "node index.js"
+  },
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "csv-string": "^4.0.1",
+    "mysql": "^2.18.1"
+  }
+}
